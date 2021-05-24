@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('images/clear.jpg');
+	height: 100vh;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: top center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-size: cover;
+}
+
+.app-main {
+	width: 50vw;
+	margin:100px auto;
+	background-color: rgba(123, 218, 241, 0.1);
+	padding: 20px;
+	text-align: center;
+	/* background-color: transparent; */
+}
+
+.app-main > *{
+	margin-bottom: 20px;
+}
+
+.Input-box {
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.6);
+	border: none;
+	outline: none;
+	height: 50px;
+	font-size: 1.2rem;
+	text-align: center;
+	color: rgb(51, 44, 44);
+	border-radius: 5px;
+	padding: 0 10px;
+}
+
+.Input-box:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.weather-body {
+	color: #282736;
+	padding: 20px;
+	line-height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.6);
+	height: 50vh;
+	display: none;
+}
+
+.location-details {
+	font-weight: bold;
+}
+
+.weather-status {
+	padding: 20px;
+}
+
+.temp {
+	font-size: 50pt;
+	font-weight: 700;
+	margin: 20px 0;
+	text-shadow: 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.min-max, .weather {
+	font-size: 12pt;
+	font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
